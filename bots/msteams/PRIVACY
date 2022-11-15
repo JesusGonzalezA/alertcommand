@@ -1,0 +1,17 @@
+Privacy Policy
+The use of this application in a server requires collecting data from the user (reference to the conversation with the bot and identifier).
+
+Access to Data
+Just for developpers.
+
+Storage of Data
+Data is stored in Azure (Cosmos Database). No guarantee of data breach.
+
+User Rights
+You can remove your data from the database.
+
+Underage Users
+Not permitted.
+
+Questions
+Create an issue on this repository.
