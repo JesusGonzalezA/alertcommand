@@ -1,0 +1,51 @@
+{
+	"$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+	"version": "1.0.0",
+	"manifestVersion": "1.15",
+	"id": "b3307df2-164b-4849-b24a-503a152b18ae",
+	"packageName": "com.package.name",
+	"name": {
+		"short": "AlertCommand",
+		"full": ""
+	},
+	"developer": {
+		"name": "Jesús González Álvarez",
+		"mpnId": "",
+		"websiteUrl": "https://github.com/JesusGonzalezA/alertcommand",
+		"privacyUrl": "https://github.com/JesusGonzalezA/alertcommand/tree/main/bots/msteams/PRIVACY.md",
+		"termsOfUseUrl": "https://github.com/JesusGonzalezA/alertcommand/tree/main/bots/msteams/TERMSOFUSE.md"
+	},
+	"description": {
+		"short": "AlertCommand to notify a user from a terminal command",
+		"full": "AlertCommand to notify a user from a terminal command"
+	},
+	"icons": {
+		"outline": "outline.png",
+		"color": "color.png"
+	},
+	"accentColor": "#FFFFFF",
+	"staticTabs": [
+		{
+			"entityId": "conversations",
+			"scopes": [ "personal" ]
+		},
+		{
+			"entityId": "about",
+			"scopes": [ "personal" ]
+		}
+	],
+	"bots": [
+		{
+			"botId": "8efb99a1-76ec-4e5d-aeef-93e95914966f",
+			"scopes": [ "personal" ],
+			"isNotificationOnly": true,
+			"supportsCalling": false,
+			"supportsVideo": false,
+			"supportsFiles": false
+		}
+	],
+	"validDomains": [],
+	"webApplicationInfo": {
+		"id": "a2da9ee7-c0b3-4974-a483-60b274e480c9"
+	}
+}
